@@ -1,0 +1,36 @@
+var ram_details=
+[{
+    "memory_summary":
+    {
+      "max_capacity"     :"2048 MB",
+      "max_memory_module":"4096",
+      "memory slot "      :"4",
+      "error_correction"  : "none",
+      "DRAM_frequency"    :"199.0 Hz",
+      "memory_timings"    :"3-3-3-8(CL-RCD-RP-RA5)"
+    },
+    "device_locator":
+    {
+        "manufacturer" : "hyundai electronics",
+        "part_number"  : "HYMD264 646D8J-D43",
+        "serial_number": "FFFF7240",
+        "capacity"     : "512MBytes",
+        "memory type"  : "DDR(PC3200)",
+        "speed"        :"200MHz",
+        "supported_frequncies":"133MHz,166MHz,200MHz",
+        "memory_timings1":"2-2-2-6-0 at 133MHz",
+        "memory_timings2":"2-3-3-7-0 at 166MHz",
+        "memory_timings3":"3-3-3-8-0 at 200MHz",
+        "data_width"    : "64 bits",
+        "manufacturering_date":"2005,week39",
+        "EPP SPD Support" :"NO",
+        "XMP SPD Support" :"NO"
+    }
+    
+    
+}]
+
+console.log(ram_details[0].device_locator.memory_timings3)
+
+
+
